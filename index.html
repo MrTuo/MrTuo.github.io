@@ -1,102 +1,243 @@
 <!doctype html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
-<!--[if gt IE 8]><!-->
-<html class="no-js" lang="">
-<!--<![endif]-->
+<html lang="en">
 
 <head>
 <meta charset="utf-8">
-<meta name="description" content="">
+<meta name="description" content="Mingxiang Tuo - Researcher in Deep Learning, NLP, and LLM-Agent">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Mingxiang Tuo's page</title>
+<title>Mingxiang Tuo - Researcher</title>
 <link rel="stylesheet" href="css/bootstrap.min.css">
 <link rel="stylesheet" href="css/jquery.fancybox.css">
 <link rel="stylesheet" href="css/main.css">
 <link rel="stylesheet" href="css/responsive.css">
 <link rel="stylesheet" href="css/animate.min.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+<style>
+  body {
+    font-family: 'Georgia', 'Times New Roman', serif;
+    line-height: 1.6;
+    color: #333;
+  }
+  .academic-header {
+    background: linear-gradient(135deg, #2c3e50 0%, #3498db 100%);
+    color: white;
+    padding: 60px 0;
+  }
+  .profile-section {
+    padding: 80px 0;
+  }
+  .profile-img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 30px;
+    border: 5px solid #3498db;
+  }
+  .section-title {
+    color: #2c3e50;
+    border-bottom: 3px solid #3498db;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+    font-weight: 600;
+  }
+  .education-item, .experience-item {
+    margin-bottom: 25px;
+    padding: 20px;
+    background: #f8f9fa;
+    border-left: 4px solid #3498db;
+  }
+  .publication-item {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #e9ecef;
+    border-radius: 5px;
+  }
+  .publication-title {
+    font-weight: 600;
+    color: #2c3e50;
+    margin-bottom: 5px;
+  }
+  .publication-link {
+    color: #3498db;
+    text-decoration: none;
+  }
+  .publication-link:hover {
+    text-decoration: underline;
+  }
+  .contact-info {
+    background: #2c3e50;
+    color: white;
+    padding: 40px 0;
+  }
+  .nav-link {
+    color: white !important;
+    font-weight: 500;
+  }
+  .nav-link:hover {
+    color: #3498db !important;
+  }
+</style>
 </head>
 
 <body>
-<!-- header section -->
-<section class="innerbanner" role="banner">
-  <header id="header"> 
-    <!-- navigation section  -->
-    <div class="header-content clearfix"> <h3 style="color:white">Mingxiang Tuo's Page</h3>
-      <nav class="navigation" role="navigation">
-        <ul class="primary-nav">
-          <li><a href="index.html">About Me</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </nav>
-      <a href="#" class="nav-toggle">Menu<span></span></a> </div>
-    <!-- navigation section  --> 
-  </header>
-  
-  <!-- banner text -->
+
+<!-- Header -->
+<header class="academic-header">
   <div class="container">
-    <div class="col-md-10 col-md-offset-1">
-      <div class="innerbanner-text text-center">
-        <p>About me</p>
-        <!-- banner text --> 
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <a class="navbar-brand" href="#" style="font-size: 1.5rem; font-weight: 600;">Mingxiang Tuo</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#experience">Experience</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#publications">Publications</a>
+          </li>
+        </ul>
       </div>
-    </div>
+    </nav>
   </div>
-</section>
-<!-- header section --> 
-<!-- description text section -->
-<section id="inner-description" class="section inner-description">
+</header>
+
+<!-- Profile Section -->
+<section id="about" class="profile-section">
   <div class="container">
-    <div class="col-md-10 col-md-offset-1 text-center"> <img src="images/myphoto.jpg" alt="Mafolio">
-      <h1>Mingxiang Tuo</h1>
-      <p>Deep Learning(DL)/Natural Language Processing(NLP)/Question Answering(QA)</p>
-    </div>
-    <div class="col-md-10 col-md-offset-1 space">
-      <h2>Study</h2>
-        <li>ShenZhen SongGang High School(2010-2014).</li>
-        <li><a href="http://www.hit.edu.cn/">Harbin Institute of Techenology(HIT)</a>(2014-2018).</li>
-        <li>Join in the lab -- <a href="http://ir.hit.edu.cn/">Research center for Social Computing and Information Retrieval(SCIR)</a> of HIT.Lead by Professor <a href="http://ir.hit.edu.cn/~zhangyu/">Zhang Yu</a>(2017-Now)</li>
-        <li>Internship in Baidu Natural Language Processing(2018.6-2018.9)</li>
-      <h2>Skills</h2>
-        <li>Java/C++/C/Python</li>
-        <li>Pytorch</li>
-        <li>Deep Learning/ NLP</li>
-        <li>Linux</li>
-      <h2>Achievement</h2>
-        <li>National University Biology Network Design Competition(Second Prize)</li>
-        <li>National University Student Information Security Competition(Second Prize)</li>
-      <h2>Hobby</h2>
-        <li>Guitar(Finger style)/basketball/swimming</li>
-    </div>
-  </div>
-</section>
-<!-- description text section --> 
-
-<!-- footer -->
-
-<footer class="section footer">
-  <div class="footer-bottom">
-    <div class="container">
-      <div class="col-md-12">
-        <p>
-        <ul class="footer-share">
-          <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-          <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-          <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-          <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-          <li><a href="#"><i class="fa fa-pinterest-p"></i></a></li>
-          <li><a href="#"><i class="fa fa-vimeo"></i></a></li>
-        </ul>
+    <div class="row">
+      <div class="col-md-4 text-center">
+        <img src="images/myphoto.jpg" alt="Mingxiang Tuo" class="profile-img">
+        <h1 style="color: #2c3e50; margin-bottom: 10px;">Mingxiang Tuo</h1>
+        <p style="font-size: 1.1rem; color: #7f8c8d; margin-bottom: 0;">Researcher</p>
+        <p style="color: #7f8c8d;">Deep Learning • NLP • LLM-Agent</p>
+      </div>
+      <div class="col-md-8">
+        <h2 class="section-title">About Me</h2>
+        <p style="font-size: 1.1rem; text-align: justify;">
+          I am a researcher specializing in Deep Learning, Natural Language Processing, and LLM-Agent technologies. 
+          My research interests focus on deep question answering systems, multi-turn user-interacting agents, and 
+          reinforcement learning for agentic tool use. I have contributed to several high-impact publications and 
+          have extensive experience in both academic research and industry applications.
         </p>
-        <p>© 2015 All rights reserved. All Rights Reserved<br>
-          Made with <i class="fa fa-heart pulse"></i> by <a href="http://kamalchaneman.com/">Designstub</a></p>
+        
+        <h3 class="section-title" style="margin-top: 40px;">Education</h3>
+        <div class="education-item">
+          <h5 style="color: #2c3e50; margin-bottom: 5px;">M.S. in Computer Science (2018-2020)</h5>
+          <p style="margin-bottom: 5px;"><strong>Harbin Institute of Technology</strong></p>
+          <p style="margin-bottom: 5px;">Research Focus: Deep Question Answering</p>
+          <p style="margin-bottom: 5px;">Laboratory: <a href="https://ir.hit.edu.cn/" class="publication-link">Research Center for Social Computing and Information Retrieval (SCIR)</a></p>
+          <p style="margin-bottom: 0;">Advisor: Professor <a href="https://homepage.hit.edu.cn/yzhang" class="publication-link">Zhang Yu</a></p>
+        </div>
+        
+        <div class="education-item">
+          <h5 style="color: #2c3e50; margin-bottom: 5px;">B.S. in Computer Science (2014-2018)</h5>
+          <p style="margin-bottom: 0;"><strong>Harbin Institute of Technology</strong></p>
+        </div>
       </div>
     </div>
   </div>
-</footer>
-<!-- footer --> 
+</section>
+
+<!-- Experience Section -->
+<section id="experience" style="background: #f8f9fa; padding: 80px 0;">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h2 class="section-title">Professional Experience</h2>
+        
+        <div class="experience-item">
+          <h5 style="color: #2c3e50; margin-bottom: 5px;">Research Scientist (2024-2025)</h5>
+          <p style="margin-bottom: 5px;"><strong>Meituan</strong></p>
+          <p style="margin-bottom: 0;">Research Focus: LLM-Agent technologies and applications</p>
+        </div>
+        
+        <div class="experience-item">
+          <h5 style="color: #2c3e50; margin-bottom: 5px;">Research Scientist (2020-2024)</h5>
+          <p style="margin-bottom: 5px;"><strong>Baidu Research Institute</strong></p>
+          <p style="margin-bottom: 0;">Research Focus: Deep Question Answering and LLM-Agent systems</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Publications Section -->
+<section id="publications" style="padding: 80px 0;">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h2 class="section-title">Publications</h2>
+        
+        <div class="publication-item">
+          <div class="publication-title">LongCat-Flash Technical Report</div>
+          <p style="margin-bottom: 5px; color: #7f8c8d;">arXiv preprint, 2024</p>
+          <a href="https://arxiv.org/abs/2509.01322" class="publication-link" target="_blank">
+            <i class="fa fa-external-link"></i> View Paper
+          </a>
+        </div>
+        
+        <div class="publication-item">
+          <div class="publication-title">MUA-RL: Multi-turn User-interacting Agent Reinforcement Learning for agentic tool use</div>
+          <p style="margin-bottom: 5px; color: #7f8c8d;">arXiv preprint, 2024</p>
+          <a href="https://arxiv.org/abs/2508.18669" class="publication-link" target="_blank">
+            <i class="fa fa-external-link"></i> View Paper
+          </a>
+        </div>
+        
+        <div class="publication-item">
+          <div class="publication-title">Keywords extraction with deep neural network model</div>
+          <p style="margin-bottom: 5px; color: #7f8c8d;">Information Processing & Management, 2020</p>
+          <a href="https://www.sciencedirect.com/science/article/pii/S092523121931687X?via%3Dihub" class="publication-link" target="_blank">
+            <i class="fa fa-external-link"></i> View Paper
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section> 
+
+<!-- Contact Section -->
+<section class="contact-info">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <h3 style="margin-bottom: 30px;">Contact Information</h3>
+        <div class="row">
+          <div class="col-md-4">
+            <i class="fa fa-envelope" style="font-size: 2rem; margin-bottom: 15px;"></i>
+            <p>Email available upon request</p>
+          </div>
+          <div class="col-md-4">
+            <i class="fa fa-map-marker" style="font-size: 2rem; margin-bottom: 15px;"></i>
+            <p>Beijing, China</p>
+          </div>
+          <div class="col-md-4">
+            <i class="fa fa-graduation-cap" style="font-size: 2rem; margin-bottom: 15px;"></i>
+            <p>Research & Academia</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer style="background: #1a252f; color: #7f8c8d; padding: 30px 0; text-align: center;">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <p style="margin-bottom: 10px;">© 2025 Mingxiang Tuo. All rights reserved.</p>
+        <p style="margin-bottom: 0; font-size: 0.9rem;">Last updated: January 2025</p>
+      </div>
+    </div>
+  </div>
+</footer> 
 
 <!-- JS FILES --> 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> 
